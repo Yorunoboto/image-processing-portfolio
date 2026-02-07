@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.project {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+}
+
+.images img {
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
