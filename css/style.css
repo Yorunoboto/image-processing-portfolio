@@ -1,31 +1,42 @@
+/* 全体 */
 body {
   font-family: sans-serif;
-  margin: 40px;
-  background: #f9f9f9;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #333;
 }
 
+/* ヘッダー */
 header {
-  margin-bottom: 40px;
+  background-color: #1e293b;
+  color: white;
+  padding: 2rem;
 }
 
-.project {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
+/* メイン */
+main {
+  padding: 2rem;
 }
 
-.images {
-  display: flex;
-  gap: 20px;
+/* ダウンロードリンク */
+a.download {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-.images img {
-  width: 200px;
-  border: 1px solid #ccc;
+a.download:hover {
+  background-color: #1d4ed8;
 }
 
-figcaption {
+/* フッター */
+footer {
   text-align: center;
-  font-size: 0.9em;
+  padding: 1rem;
+  background-color: #e5e7eb;
+  font-size: 0.9rem;
 }
-
